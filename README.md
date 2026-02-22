@@ -1,16 +1,25 @@
 
 
-# cool commands
+# a robot?
 
-# build
+![hand](hand.png)
+
+### Setup .bashrc
 ```bash
-cd ros2_ws
-colcon build --symlink
-source install/local_setup.bash
+
+alias goros='conda deactivate 2>/dev/null; \
+unset PYTHONPATH; \
+source /opt/ros/kilted/setup.bash; \
+cd ~/ros2_ws; \
+'
+alias buildros=' \
+colcon build --symlink; \
+source install/local_setup.bash; \
+'
+
 ```
 
-### publish state (no visualization)
-
+### Launch viewer
 ```bash
 ros2 launch hand_description publish_state.launch.py # start state publishing and sliders
 ```
