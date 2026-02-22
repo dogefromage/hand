@@ -1,0 +1,16 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        // {
+        //     "name": "Debug Servo Controller",
+        //     "type": "debugpy",
+        //     "request": "launch",
+        //     "program": "${workspaceFolder}/ros2_ws/src/hand_servo_controller/hand_servo_controller/servo_controller.py",
+        //     "console": "integratedTerminal",
+        //     "env": {
+        //         "AMENT_PREFIX_PATH": "${workspaceFolder}/ros2_ws/inmyenvstall",
+        //         "COLCON_CURRENT_PREFIX": "${workspaceFolder}/ros2_ws/install"
+        //     }
+        // }
+    ]
+}

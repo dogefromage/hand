@@ -1,0 +1,8 @@
+
+
+go to assembly (i think), then "Save As" .stl (check do not move to positive coords box!!). 
+all stls will get spilled into destination folder.
+
+save tree.txt via the VBA script save_tree.swp
+
+use import_meshes.py
