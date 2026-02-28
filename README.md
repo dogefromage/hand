@@ -21,5 +21,11 @@ source install/local_setup.bash; \
 
 ### Launch viewer
 ```bash
-ros2 launch hand_description publish_state.launch.py # start state publishing and sliders
+
+# launches robot_state_publisher, joint_state_publisher_gui
+ros2 launch hand_description publish_state.launch.py 
+
+# launches rviz, robot_state_publisher, joint_state_publisher_gui
+ros2 launch hand_description view_in_rviz.launch.py
+
 ```
